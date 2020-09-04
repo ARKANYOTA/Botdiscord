@@ -26,13 +26,13 @@ fs.readdir('./Events/', (error, f) => {
         });
 });
 
-client.login('NjYxNTI5MDk0MzkxMDcwNzgy.Xgs02Q.ksU9W1-E3FLTl6_K1yhZ8bPM19M');
+client.login('Le token');
 
 client.on("guildMemberAdd", user =>{
-    user.guild.channels.get("662063638332571660").send("Bienvenue à toi" + user +"dans le serveur "+ user.guild.name + "SI tu es un éléve de la merveilleuse classe 108 amuses toi bien dans ce serv sinon garde à toi")
-    user.addRole("661595102485020683")
+    user.guild.channels.get("").send("Bienvenue à toi" + user +"dans le serveur "+ user.guild.name + "Si tu es un éléve de la merveilleuse classe 108 amuses toi bien dans ce serv sinon garde à toi")
+    user.addRole("")
 });
 
 client.on("guildMemberRemove", user =>{
-    user.guild.channels.get("662063740732178452").send("**" + user.user.username + "** se révelait être un facho-capitaliste adorateur de perquisition à la botte de Trump...tout ce que Mélenchon déteste ,malheureusement pour lui. Il a donc été envoyé au Goulag.")
+    user.guild.channels.get("").send("*Ahlalala*" + user.user.username + "** est parti")
 });

@@ -26,7 +26,7 @@ fs.readdir('./Events/', (error, f) => {
         });
 });
 
-client.login('Le token');
+client.login('Y2xxUbbS8MVRT76Pp7r8ma81ivIsEcB0');
 
 client.on("guildMemberAdd", user =>{
     user.guild.channels.get("").send("Bienvenue à toi" + user +"dans le serveur "+ user.guild.name + "Si tu es un éléve de la merveilleuse classe 108 amuses toi bien dans ce serv sinon garde à toi")
